@@ -25,7 +25,7 @@ class Customer
 		virtual string getType() = 0; // pure virtual
 		
 		
-	private:	
+	protected:	
 		int num;
 		string name,address,tel; 
 		
