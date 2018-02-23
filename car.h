@@ -8,6 +8,7 @@ Date:
 #define _CAR_H_
 
 #include<iostream>
+#include <string>
 using namespace std;
 
 class Car
