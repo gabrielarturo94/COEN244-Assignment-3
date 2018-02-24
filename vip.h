@@ -8,7 +8,8 @@ Date:
 #define _VIP_H_
 
 #include"customer.h"
-#include<iostream>
+// I took out include iostream to put it in the base class. Once the others inherit, they'll be able to use the library
+
 using namespace std;
 
 class VIP : public Customer
@@ -16,7 +17,7 @@ class VIP : public Customer
 	public:
 		
 		VIP();
-		VIP(int inum, string sname, string saddress, string stel);
+		VIP(int, string, string, string);
 		
 		~VIP();
 		
