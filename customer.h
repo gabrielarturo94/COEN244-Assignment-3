@@ -7,7 +7,8 @@ Date:
 #ifndef _CUSTOMER_H_
 #define _CUSTOMER_H_
 
-#include<iostream>
+#include <iostream> // Iostream was already included. I'm also including string in this base class for the same reason
+#include <string>
 using namespace std;
 
 class Customer
